@@ -28,7 +28,7 @@
 #include "fcitx/instance.h"
 #include "fcitx/misc_p.h"
 #include "config.h"
-#include "notifications_public.h"
+#include "../notifications/notifications_public.h"
 #include "waylandeventreader.h"
 #include "wl_seat.h"
 
