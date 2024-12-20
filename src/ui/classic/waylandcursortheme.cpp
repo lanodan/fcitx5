@@ -2,10 +2,13 @@
 #include <memory>
 #include <wayland-cursor.h>
 #include "fcitx-utils/misc_p.h"
-#include "dbus_public.h"
 #include "portalsettingmonitor.h"
 #include "waylandui.h"
 #include "wl_shm.h"
+
+#ifdef ENABLE_DBUS
+#include "dbus_public.h"
+#endif
 
 namespace fcitx::classicui {
 
